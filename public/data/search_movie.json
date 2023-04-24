@@ -1,0 +1,28 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/ceYZCBfwbBwSpGJ6PapNVw5jqLG.jpg",
+            "genre_ids": [
+                16,
+                18,
+                12,
+                14
+            ],
+            "id": 916224,
+            "original_language": "ja",
+            "original_title": "すずめの戸締まり",
+            "overview": "큐슈의 작은 마을에서 살고 있는 소녀 ‘스즈메’는 어느 날, 여행을 하며 ‘문’을 찾고 있는 한 청년을 만난다. 그의 뒤를 쫓아간 소녀는 산속 폐허에서 덩그러니 남겨진 낡은 문을 발견한다. 무언가에 이끌린 듯 ‘스즈메’는 문으로 손을 뻗는데…",
+            "popularity": 380.562,
+            "poster_path": "/kVS51ssZF1y0IXF342h54cIJ0EK.jpg",
+            "release_date": "2022-11-11",
+            "title": "스즈메의 문단속",
+            "video": false,
+            "vote_average": 8.003,
+            "vote_count": 173
+        }
+    ],
+    "total_pages": 1,
+    "total_results": 1
+}

@@ -40,7 +40,7 @@ export default function NavBar() {
   }, []);
 
   return (
-    <nav ref={navRef} className={`fixed w-full h-14 inset-x-0 top-0 transition duration-150 ease-in ${changeColor ? 'bg-rose-700 text-white' : 'bg-rose-200'}`}>
+    <nav ref={navRef} className={`fixed w-full h-14 inset-x-0 top-0 z-[1000] transition duration-150 ease-in ${changeColor ? 'bg-rose-700/90 text-white' : 'bg-rose-400/90'}`}>
       <div className='flex justify-center items-center h-full'>
         <Link href="/" legacyBehavior>
           <a className='flex justify-center items-center h-full'>
