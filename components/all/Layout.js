@@ -1,5 +1,6 @@
 import NavBar from './Navbar';
 import Head from 'next/head';
+import Footer from './Footer';
 
 export default function Layout({ children }) {
   return (
@@ -11,7 +12,8 @@ export default function Layout({ children }) {
         <title>MOBA</title>
       </Head>
       <NavBar />
-      <div className='pt-14'>{children}</div>
+      <div>{children}</div>
+      <Footer />
     </>
   )
 }
