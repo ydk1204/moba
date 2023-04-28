@@ -36,13 +36,13 @@ export default function Home({ result }) {
   return (
     <div className='h-full'>
       {/* 메인 화면 주요 영화 포스터 */}
-      <section className='w-full h-3/5'>
+      <section className='w-full'>
         {/* <div className='w-full h-40 relative -z-50 overflow-hidden'> */}
           {/* <img src="/posterimage2.jpg" alt="main movie poster" className='absolute top-0 left-0 w-full h-full' /> */}
         {/* </div> */}
-        {/* <div className='bg-[url("/posterimage2.jpg")] xl:h-[60rem] h-[30rem] bg-no-repeat bg-cover bg-center bg-fixed'></div> */}
+        {/* <div className='bg-[url("/posterimage2.jpg")] xl:h-[60rem] h-[40rem] bg-no-repeat bg-cover bg-center bg-fixed'></div> */}
         <div className='w-full h-32rem overflow-hidden'>
-          <img src="/posterimage2.jpg" alt="main movie poster" className='w-full 2xl:h-[65rem] h-full object-cover' />
+          <img src="/posterimage2.jpg" alt="main movie poster" className='w-full 2xl:h-[65rem] sm:h-[50rem] h-full md:object-cover object-fill' />
         </div>
       </section>
       <section>
