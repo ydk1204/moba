@@ -2,7 +2,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import { useState, useEffect } from 'react';
 
-export default function Home({ result }) {
+export default function Home({ result, pathList }) {
   const [posterPath, setPostersPath] = useState([]);
   const [overView, setOverView] = useState([]);
 
@@ -17,6 +17,8 @@ export default function Home({ result }) {
     })
     .catch((error) => console.log("error", error));
   }
+
+  console.log(pathList)
 
   useEffect(() => {
     // movie 이름만 추출
@@ -67,7 +69,7 @@ export default function Home({ result }) {
               before:top-0 before:left-0 before:text-3xl before:pl-3 before:pt-3
               before:absolute before:text-white
               '>
-              <img src={`https://image.tmdb.org/t/p/w${300}${posterPath[movie.rank - 1]}`} alt="poster" />
+              <img src={`https://image.tmdb.org/t/p/w${300}${pathList[0].poster_path}`} alt="poster" />
               <p className='text-center'>{movie.movieNm}</p>
               <div className='
                   absolute top-[95%] left-0 w-full h-0 opacity-0 bg-rose-600/90
@@ -79,7 +81,7 @@ export default function Home({ result }) {
                 <p className='w-full text-lg'>{movie.openDt}</p>
                 <div className='border border-white w-full my-2'></div>
                 <h3 className='w-full text-2xl '>개요</h3>
-                <p className='w-full text-start px-4'>{overView[movie.rank - 1]}</p>
+                <p className='w-full text-start px-4'>{pathList[0].overview}</p>
               </div>
             </div>
           ))}
@@ -90,11 +92,26 @@ export default function Home({ result }) {
   )
 }
 
-export async function getServerSideProps() {
+export async function getPosterPath() {
+  const { results } = await (await fetch("http://localhost:3000/data/search_movie.json")).json();
+  return results;
+}
+
+export async function getStaticProps() {
+  const list = [];
+  const path = [];
   const { boxOfficeResult } = await (await fetch("http://localhost:3000/data/daily_boxoffice.json")).json();
+  const data = await boxOfficeResult.dailyBoxOfficeList;
+  // data?.map((movie) => {
+  //   path.push(getPosterPath(movie.movieNm));
+  // });
+  const { results } = await (await fetch("http://localhost:3000/data/search_movie.json")).json();
+
   return {
     props: {
-      result: boxOfficeResult.dailyBoxOfficeList
+      result: boxOfficeResult.dailyBoxOfficeList,
+      pathList : results
     }
   }
 }
+
