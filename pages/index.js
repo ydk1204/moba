@@ -59,18 +59,27 @@ export default function Home({ result }) {
             <div key={movie.rank}
               before={`${movie.rank}`}
               className='
-              relative flex flex-col w-fit overflow-hidden bg-rose-600/80
-              rounded-lg items-center justify-center group
+              relative flex flex-col w-fit overflow-hidden bg-rose-600/80 text-white
+              rounded-lg items-center justify-center group 
+              hover:bg-sky-300 hover:text-black transition-all duration-300
               before:content-[attr(before)] before:w-full before:h-full 
               before:bg-gradient-to-b before:from-black/30
               before:top-0 before:left-0 before:text-3xl before:pl-3 before:pt-3
               before:absolute before:text-white
               '>
               <img src={`https://image.tmdb.org/t/p/w${300}${posterPath[movie.rank - 1]}`} alt="poster" />
-              <p className='text-center text-white'>{movie.movieNm}</p>
-              <div className='absolute top-[95%] left-0 w-full h-0 opacity-0 bg-rose-600/80 group-hover:opacity-100 group-hover:top-0 group-hover:left-0 group-hover:h-[95%] transition-all duration-300 text-white'>
-                <p>개봉일: {movie.openDt}</p>
-                <p className=''>개요: {overView[movie.rank - 1]}</p>
+              <p className='text-center'>{movie.movieNm}</p>
+              <div className='
+                  absolute top-[95%] left-0 w-full h-0 opacity-0 bg-rose-600/90
+                  group-hover:opacity-100 group-hover:top-0 group-hover:left-0
+                  group-hover:h-[95%] transition-all duration-300 text-white
+                  flex flex-col items-center text-center py-2
+                  '>
+                <h3 className='w-full text-2xl font-bold'>개봉일</h3>
+                <p className='w-full text-lg'>{movie.openDt}</p>
+                <div className='border border-white w-full my-2'></div>
+                <h3 className='w-full text-2xl '>개요</h3>
+                <p className='w-full text-start px-4'>{overView[movie.rank - 1]}</p>
               </div>
             </div>
           ))}
