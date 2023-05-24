@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+// import styles from '../styles/globals.css';
 import { useState, useEffect } from 'react';
 
 export default function Home({ result, pathList }) {
@@ -39,19 +39,23 @@ export default function Home({ result, pathList }) {
     <div className='h-full'>
       {/* 메인 화면 주요 영화 포스터 */}
       <section className='w-full'>
-        {/* <div className='w-full h-40 relative -z-50 overflow-hidden'> */}
-          {/* <img src="/posterimage2.jpg" alt="main movie poster" className='absolute top-0 left-0 w-full h-full' /> */}
-        {/* </div> */}
-        {/* <div className='bg-[url("/posterimage2.jpg")] xl:h-[60rem] h-[40rem] bg-no-repeat bg-cover bg-center bg-fixed'></div> */}
-        <div className='w-full h-32rem overflow-hidden'>
+        
+        {/* <div className='w-full h-32rem overflow-hidden'>
           <img src="/posterimage2.jpg" alt="main movie poster" className='w-full 2xl:h-[65rem] sm:h-[50rem] h-full md:object-cover object-fill' />
+        </div> */}
+        <div className={`w-full h-[45rem] overflow-hidden
+        before:content-[""] before:w-full before:h-[45rem] 
+        before:bg-gradient-to-r before:from-[#0A1B2A] before:via-black/5 before:to-[#0A1B2A]
+        before:top-0 before:left-0
+        before:absolute`}>
+          <img src="/posterimage2.jpg" alt="main movie poster" className='w-full h-full object-cover' />
         </div>
       </section>
       <section>
         {/* 박스오피스 제목 */}
         <div className='relative inset-x-0 -top-20 w-full h-20 z-40 flex justify-center'>
-          <div className='bg-white w-1/2 h-full rounded-t-md flex justify-center'>
-            <h1 className='mt-8 font-bold md:text-4xl sm:text-2xl'>국내 박스오피스 순위</h1>
+          <div className='bg-[#0A1B2A] w-1/2 h-full rounded-t-md flex justify-center'>
+            <h1 className='mt-8 text-white font-bold md:text-4xl sm:text-2xl'>국내 박스오피스 순위</h1>
           </div>
         </div>
         
@@ -63,7 +67,7 @@ export default function Home({ result, pathList }) {
               className='
               relative flex flex-col w-fit overflow-hidden bg-rose-600/80 text-white
               rounded-lg items-center justify-center group 
-              hover:bg-sky-300 hover:text-black transition-all duration-300
+              hover:bg-[#0A1B2A] hover:text-white transition-all duration-300
               before:content-[attr(before)] before:w-full before:h-full 
               before:bg-gradient-to-b before:from-black/30
               before:top-0 before:left-0 before:text-3xl before:pl-3 before:pt-3
