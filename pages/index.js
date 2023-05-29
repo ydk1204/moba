@@ -1,8 +1,13 @@
 import Image from 'next/image';
-// import styles from '../styles/globals.css';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
+import Seo from '../components/all/Seo.js';
 
 export default function Home({ result, pathList }) {
+  const router = useRouter();
+  const onPosterClick = (title) => { router.push(`/movies/movieDetail/${title}`) };
+
   const [posterPath, setPostersPath] = useState([]);
   const [overView, setOverView] = useState([]);
 
@@ -37,6 +42,7 @@ export default function Home({ result, pathList }) {
 
   return (
     <div className='h-full'>
+      <Seo title="Home" />
       {/* 메인 화면 주요 영화 포스터 */}
       <section className='w-full'>
         
@@ -62,8 +68,18 @@ export default function Home({ result, pathList }) {
         {/* 박스 오피스 순위 목록 boxOffice list */}
         <div className='grid gap-4 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-2 place-items-center'>
           {result?.map((movie) => (
-            <div key={movie.rank}
-              before={`${movie.rank}`}
+            <Link key={movie.rank} href={{
+              pathname: `/movies/movieDetail/${movie.movieNm}`,
+              query:
+              {
+                data: JSON.stringify(pathList),
+                movieNumber: movie.movieCd
+              },
+              }}
+              as={`/movies/movieDetail/${movie.movieNm}`}
+              onClick={() => onPosterClick(movie.movieNm)}
+              legacyBehavior>
+              <div before={`${movie.rank}`}
               className='
               relative flex flex-col w-fit overflow-hidden bg-rose-600/80 text-white
               rounded-lg items-center justify-center group 
@@ -88,6 +104,7 @@ export default function Home({ result, pathList }) {
                 <p className='w-full text-start px-4'>{pathList[0].overview}</p>
               </div>
             </div>
+            </Link>
           ))}
         </div>
       </section>

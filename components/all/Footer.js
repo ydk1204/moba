@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className='flex justify-center mt-20 w-full h-fit bg-rose-700/90'>
+    <footer className='flex justify-center mt-20 w-full h-fit bg-rose-700/90 relative inset-x-0 bottom-0'>
       <nav className='flex py-2 text-white flex-col items-center md:flex-row md:items-start'>
         <div className='md:mr-16 md:w-fit m-0 w-full'>
           <img src="/logo.png" alt="logo Image" className={`w-28`} />
