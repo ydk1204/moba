@@ -26,26 +26,41 @@ export default function Detail({params}) {
     <div>
       <Seo title={title} />
       {objData ? 
-        <div className={`w-full h-screen mt-64 flex justify-center text-white`}>
-        <div className='h-fit w-fit border-2 border-rose-500 rounded-md overflow-hidden mr-[4rem]'>
-          <img src={`https://image.tmdb.org/t/p/w${300}${objData[0].poster_path}`} alt="poster" />
-        </div>
-        <div className=''>
-          <h1 className='text-4xl font-medium'>{title}</h1>
-          <h3 className='text-xl text-gray-400'>{objData[0].original_title}</h3>
-          {detailData.length > 0 ? 
-            <div>
-              <p>감독 : {detailData[0].directors[0].peopleNm}</p>
-              <p>개봉년도 : {detailData[0].openDt}</p>
-              <p>상영시간 : {detailData[0].showTm}분</p>
-              <p>장르 : {detailData[0].genres[0].genreNm}</p>
-              {detailData[0].showTypes.map((type, idx) => (
-                <div key={idx}>{type.showTypeGroupNm} {type.showTypeNm}</div>
-              ))}
-                <p>개요 : {objData[0].overview }</p>
-            </div>
+        <div className={`
+          w-full h-screen pt-64 text-white
+          before:content-[""] before:w-full before:h-screen 
+          before:bg-gradient-to-t before:from-[#0A1B2A] before:via-black/70  before:to-[#0A1B2A]
+          before:top-0 before:left-0
+          before:absolute
+          `}
+          style={{
+            backgroundImage: `url(https://image.tmdb.org/t/p/original${objData[0].backdrop_path})`,
+            backgroundSize: `cover`,
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+          }}
+        >
+        <div className='relative flex justify-center'>
+          <div className='h-fit w-fit border-2 border-rose-500 rounded-md overflow-hidden mr-[4rem]'>
+            <img src={`https://image.tmdb.org/t/p/w${300}${objData[0].poster_path}`} alt="poster" />
+          </div>
+          <div className='w-[40rem]'>
+            <h1 className='text-4xl font-medium'>{title}</h1>
+            <h3 className='text-xl text-gray-400'>{objData[0].original_title}</h3>
+            {detailData.length > 0 ? 
+              <div>
+                <p>감독 : {detailData[0].directors[0].peopleNm}</p>
+                <p>개봉년도 : {detailData[0].openDt}</p>
+                <p>상영시간 : {detailData[0].showTm}분</p>
+                <p>장르 : {detailData[0].genres[0].genreNm}</p>
+                {detailData[0].showTypes.map((type, idx) => (
+                  <div key={idx}>{type.showTypeGroupNm} {type.showTypeNm}</div>
+                ))}
+                  <p>개요 : {objData[0].overview }</p>
+              </div>
             : <></>
-          }
+            }
+          </div>
         </div>
       </div>
         :
