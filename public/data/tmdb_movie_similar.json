@@ -1,0 +1,407 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/v2YxWPX2yKdo6arIAknJzKLxhZY.jpg",
+            "genre_ids": [
+                28,
+                53,
+                12,
+                878
+            ],
+            "id": 9341,
+            "original_language": "en",
+            "original_title": "The Core",
+            "overview": "미국 정부에선 인공지진으로 적을 공격하는 비밀 병기 데스티니 (D-E-S-T-I-N-Y)를 개발 한다. 그로 인해 지구 핵, 코어(CORE)의 회전이 멈추면서 지구엔 갖가지 기상 이변이 발생, 재난이 속출한다. NASA측은 대학에서 지구 물리학을 가르치는 조슈아 키스박사에게 현 상황에 대한 진단을 부탁하고 박사는 이런 상태라면 1년 안에 지구가 전멸할 것이라고 말한다. 인류가 살 수 있는 방법은 화성 크기의 지구 핵을 다시 회전 시키는 방법 밖에 없다는 결론 끝에 미 정부와 NSA측은 6명의 전문가로 구성된 팀을 만들어 이들을 지구의 코어로 내려 보내는 프로젝트를 추진한다.  이 프로젝트의 핵심은, 코어에 들어가 핵 폭탄을 터뜨려서 지구 핵을 다시 회전 시킨 뒤, 그로 인해 발생될 거대한 충격파를 피해 지상으로 다시 귀환하는 것이었다. 그러나 몇 천도의 지열과 엄청난 압력 속을 뚫고 코어로 들어가는 여정엔 뜻 하지 않은 수 많은 변수가 이들을 기다라고 있었다. 그 와중에 대원들은 차례로 죽어가고, 짐스키는 지상 관제소에 프로젝트를 포기하겠으니 '데스티니' 프로그램을 가동하라는 최후통첩을 한다. '데스티니'로 인해 코어의 회전이 멈췄으니, '데스티니'로 다시 회전을 일으킬 수 있다는 이유. 지상에선 '데스티니'를 발사할 준비에 들어가지만, '버질'호의 남은 대원들은 이번 임무를 끝까지 이행 시키기로 결심한다.",
+            "popularity": 18.916,
+            "poster_path": "/o9pW3bCBIxty2b46RU0Dij3VfzI.jpg",
+            "release_date": "2003-03-28",
+            "title": "코어",
+            "video": false,
+            "vote_average": 5.751,
+            "vote_count": 1606
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pfTlwLkaB8XxDPW4gYLW5owRByq.jpg",
+            "genre_ids": [
+                16,
+                18,
+                28
+            ],
+            "id": 608085,
+            "original_language": "ja",
+            "original_title": "ぼくらの7日間戦争",
+            "overview": "어른들의 관리 교육에 반항하는 중학생들이 폐허가 된 공장을 점거하며 상쾌한 역습극을 펼친다――。",
+            "popularity": 13.296,
+            "poster_path": "/a7x6Q7bmyxk36Db5VxDMDTHQO9e.jpg",
+            "release_date": "2019-12-13",
+            "title": "우리들의 7일 전쟁",
+            "video": false,
+            "vote_average": 6.575,
+            "vote_count": 60
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cNIECQ8CM0NqBXosRfPcKNhntqS.jpg",
+            "genre_ids": [
+                27,
+                53,
+                18
+            ],
+            "id": 434392,
+            "original_language": "en",
+            "original_title": "The Rake",
+            "overview": "어린 시절 부모가 잔인하게 살해되는 걸 목격한 벤과 애슐리 남매 그 사건의 충격으로 사이가 소원해진 두 남매는 20년 만에 의붓 자매인 니콜의 집들이에서 재회한다. 수년 간의 노력 끝에 안정을 찾은 벤과 달리 대부분의 시간을 정신과 치료를 받으며 보낸 애슐리. 니콜의 임신 소식을 듣고 갑자기 감정이 격해진 애슐리는 자신 안의 무언가가 깨어났다며 그것이 모두를 감염시킬 거라고 한다.",
+            "popularity": 6.382,
+            "poster_path": "/36PlBob2b4mR8FGLA44SbYuhL6c.jpg",
+            "release_date": "2018-06-05",
+            "title": "더 레이크",
+            "video": false,
+            "vote_average": 4.8,
+            "vote_count": 26
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cmOWlfDvBSMyLaeZ85M87GmkH8v.jpg",
+            "genre_ids": [
+                28,
+                12,
+                18,
+                53
+            ],
+            "id": 2133,
+            "original_language": "en",
+            "original_title": "The Perfect Storm",
+            "overview": "또 다시 빈배로 돌아갈 수 없는 안드레아 게일호의 선장 빌리 타인(조지 클루니), 새 삶을 위해 목돈이 필요한 바비(마크 윌버그) 등 삶의 막다른 골목에 이른 어부들은 안드레아 게일호를 타고 먼 바다로 나서는데, 그때부터 바다 위에는 마치 인간의 오만을 용서하지 않는다는 듯 엄청난 파괴력을 지닌 폭풍 그레이스가 몰려오기 시작하고...",
+            "popularity": 20.95,
+            "poster_path": "/h8DwzeemLiF0CinVVjfF9i1ztcM.jpg",
+            "release_date": "2000-06-29",
+            "title": "퍼펙트 스톰",
+            "video": false,
+            "vote_average": 6.425,
+            "vote_count": 1969
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/smkfmluUB2EhgpWAj27mbKlvYgQ.jpg",
+            "genre_ids": [
+                18,
+                53
+            ],
+            "id": 2652,
+            "original_language": "en",
+            "original_title": "Hard Candy",
+            "overview": "3주간의 인터넷 채팅으로 만난 32세 사진작가 제프콜버(패트릭윌슨)와 14세의 헤일리(엘렌페이지)는 나이트호크라는 가게에서 만나기로 약속을 잡는다. 매력적인 제프에게 빠진 헤일리의 부탁으로 제프는 자신의 집에 헤일리를 데려간다. 하지만, 헤일리의 사진을 찍던 제프는 그녀가 수면제를 탄 술을 먹고 쓰러지게 되고, 제프가 눈을 떴을때 상황은 역전되고 의자에 묶여있는 자신을 발견하게된다.\r 제프를 아동성범죄자로 몰아가는 헤일리는 그의 집을 수색해 증거를 찾아내기 시작한다. 그리고 발견된 한장의 사진 헤일리는 더이상 이같은 피해자를 만들수 없다며 제프에게 벌을내린다.",
+            "popularity": 15.567,
+            "poster_path": "/uHTmlcivbPeclEdmtuQg3zOQWPS.jpg",
+            "release_date": "2005-01-14",
+            "title": "하드 캔디",
+            "video": false,
+            "vote_average": 6.828,
+            "vote_count": 2283
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nv5wwZou159v5OC61i4ElR7OqyY.jpg",
+            "genre_ids": [
+                14,
+                16,
+                12
+            ],
+            "id": 4935,
+            "original_language": "ja",
+            "original_title": "ハウルの動く城",
+            "overview": "19세기 말 마법과 과학이 공존하고 있는 세계 앵거리. 소피는 돌아가신 아버지의 모자상점에서 쉴틈없이 일하는 18살 소녀이다. 어느 날 오랫만에 마을로 나간 소피는 우연히 하울을 만나게 된다. 하울은 왕실 마법사로서 핸섬하지만 조금 겁이 많은 청년이다. 황무지 마녀는 두 사람의 사이를 오해, 주문을 걸어 소피를 90살의 늙은 할머니로 만들어 버린다. 가족을 걱정한 소피는 집을 나오게 되고 황무지를 헤매다가 하울이 사는 성에서 가정부로 낯선 생활을 시작한다. 4개의 다리로 걷는 기괴한 움직이는 성 안에서 하울과 소피의 기묘한 사랑과 모험이 시작되는데...",
+            "popularity": 67.274,
+            "poster_path": "/xiz6TiSduvR1U3VLfWVlBEdT9fO.jpg",
+            "release_date": "2004-09-09",
+            "title": "하울의 움직이는 성",
+            "video": false,
+            "vote_average": 8.405,
+            "vote_count": 8332
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3fgcEjBNrhstYgPlG1c8WT7UpIN.jpg",
+            "genre_ids": [
+                16,
+                9648,
+                878,
+                53
+            ],
+            "id": 4977,
+            "original_language": "ja",
+            "original_title": "パプリカ",
+            "overview": "29살의 정신과 치료사 치바 아츠코에게는 또 하나의 자아가 있다. 바로 18살의 대담무쌍한 꿈 탐정 파프리카이다. 파프리카는 사람들의 꿈속에 들어가 그들의 무의식에 동조함으로써 환자의 불안과 신경증의 원인을 밝혀내고 치료한다. 어느 날, 치바의 연구소에서 개발 중이던 혁명적인 정신치료장치 DC-MINI의 프로토타입이 도난 당하고 조수마저 실종된다. 장치를 찾아나선 치바는 무서운 음모가 진행되고 있음을 알게 된다.",
+            "popularity": 18.494,
+            "poster_path": "/u99oX6DQ8FIRzuyRXc98vsd1STR.jpg",
+            "release_date": "2006-10-01",
+            "title": "파프리카",
+            "video": false,
+            "vote_average": 7.797,
+            "vote_count": 1918
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jh6GJSeqyazoKfi3Lu19N1fvr7e.jpg",
+            "genre_ids": [
+                16,
+                18,
+                14
+            ],
+            "id": 431819,
+            "original_language": "ja",
+            "original_title": "打ち上げ花火、下から見るか？横から見るか？",
+            "overview": "불꽃축제를 앞둔 어느 바닷가 마을  아이들은 ‘불꽃은 옆에서 보면 둥글까? 납작할까?’라는 것에 대한 이야기로 떠들썩하지만  갑작스런 전학을 앞둔 나즈나는 마음이 복잡하다.  우리 사랑의 도피를 떠나자.  노리미치에게 둘이서 마을을 떠날 것을 제안하는 나즈나.  하지만 어머니에게 발각된 나즈나는 집으로 끌려 들어가고  남겨진 노리미치는 나즈나가 간직하고 있던 구슬을 던져본다.  만약, 그때 내가…  나즈나와의 즐거웠던 순간으로 되돌아간 노리미치.  처음으로 나즈나와 단둘이 함께하기 위해, 마지막으로 나즈나에게 진심을 고백하기 위해  반복되는 하루를 몇 번이고 다시 겪게 되는데…  다시 불꽃이 터지면, 첫사랑도 이루어질까?",
+            "popularity": 19.024,
+            "poster_path": "/ca4O5RyS9aYuJq7Vrtd9YDWSlQP.jpg",
+            "release_date": "2017-08-18",
+            "title": "쏘아올린 불꽃, 밑에서 볼까? 옆에서 볼까?",
+            "video": false,
+            "vote_average": 6.521,
+            "vote_count": 287
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sIzZQdXY21sEks9lGkGuXzqdGSA.jpg",
+            "genre_ids": [
+                14,
+                35
+            ],
+            "id": 4011,
+            "original_language": "en",
+            "original_title": "Beetlejuice",
+            "overview": "신혼부부 아담(알렉 볼드윈)과 바바라(지나 데이비스)는 어처구니 없는 사고로 사망하고 행복했던 시절을 잊지 못해 유령이 되어 계속 집에 머문다. 그러던 어느날 찰스 가족이 이사오자 아담과 바바라는 그들을 쫓아낼 계획을 세운다. 찰스 가족을 쫓아내기 위해 유령소동을 벌였지만 번번이 실패한다. 아담부부는 찰스의 딸 리디아(위노나 라이더)와 친해지고 리디아와 결혼을 꿈꾸는 사악한 장난꾸러기 비틀쥬스(마이클 키튼)는 계속해서 사건을 벌이고, 일은 꼬여만 가는데...",
+            "popularity": 31.722,
+            "poster_path": "/nnl6OWkyPpuMm595hmAxNW3rZFn.jpg",
+            "release_date": "1988-03-30",
+            "title": "비틀쥬스",
+            "video": false,
+            "vote_average": 7.382,
+            "vote_count": 5965
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rf1a61N3QGiXVUwC19WV3TRfwOO.jpg",
+            "genre_ids": [
+                99
+            ],
+            "id": 4832,
+            "original_language": "en",
+            "original_title": "The 11th Hour",
+            "overview": "11번째 시간은 인류 멸망의 시간, 12시에 임박한 지구의 위기상황을 표현한 말이다. 배우 레오나르도 디카프리오는 11번째 시간을 통해 인류 위기의 근본 원인을 문명에서 찾으며 스스로 화를 자초해 멸종의 위기에 놓여 있는 인간에 대한 통찰과 생태에 대한 철학을 제시한다. 물리학자 스티븐 호킹을 비롯해 전 CIA 국장 제임스 울시, 국제녹십자를 설립한 미하일 고르바초프를 포함해 환경운동가, 저술가, 학자, 건축가, 디자이너 등 총 56인의 전문가 인터뷰로 구성된 이 다큐멘터리는 지금 위험에 처한 것은 지구가 아니라 인간임을 상기시키고 살아남으려면 변화해야 한다고 촉구한다.",
+            "popularity": 10.462,
+            "poster_path": "/9ZQyqJhoqSXYhu27oRDqz3Tzl10.jpg",
+            "release_date": "2007-08-17",
+            "title": "11번째 시간",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 81
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7KzoGooe5CvPqie0jDcG7xsOZhg.jpg",
+            "genre_ids": [
+                80,
+                18,
+                27,
+                53
+            ],
+            "id": 8643,
+            "original_language": "en",
+            "original_title": "The Exorcism of Emily Rose",
+            "overview": "부푼 희망을 안고 대학생이 된 에밀리 로즈(제니퍼 카펜터 분)는 기숙사 생활 중 끔찍한 환영과 마주치게 된다. 매일 새벽 3시마다 어김없이 점점 더 끔찍한 모습으로 그녀를 찾아오는 환영과 극심한 발작으로 에밀리는 갈수록 쇠약해진다. 신경과를 비롯한 현대의학은 그녀에게 아무런 도움도 되지 못하고, 마침내 가톨릭 교회는 리처드 무어 신부(톰 윌킨슨)를 통해 신체적, 정신적 고통이 극에 달한 에밀리에게 엑소시즘의 최고단계인 ‘리투알 로마니’를 행하도록 허락한다.  하지만 엑소시즘 도중 에밀리가 사망하는 사고가 벌어지고, 무어신부는 가혹한 엑소시즘과 에밀리를 죽게 방치했다는 혐의로 재판까지 받게된다. 무어신부의 변호를 맡은 유능한 여변호사 에린(로라 리니)은 무신론자였지만 사건을 맡은 이후 자신도 예상치 못한 공포를 겪으면서 과실치사 혐의로 신부를 고소한 검사측과 치열한 변론으로 치달으며 TV로 생중계되기에 이르자 전국이 충격과 공포에 휩싸이게 되는데…  과연 에밀리 로즈를 죽인 것은 악령인가, 신부인가?",
+            "popularity": 26.4,
+            "poster_path": "/qQ7HJINn03KnWZ4xMvBtNWMdrye.jpg",
+            "release_date": "2005-09-09",
+            "title": "엑소시즘 오브 에밀리 로즈",
+            "video": false,
+            "vote_average": 6.537,
+            "vote_count": 2470
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/6moXpp6y1EZ6pfnSxnKFMrbFnWv.jpg",
+            "genre_ids": [
+                53,
+                878
+            ],
+            "id": 8645,
+            "original_language": "en",
+            "original_title": "The Happening",
+            "overview": "원인을 알 수 없는 미스터리 현상들이 뉴욕의 곳곳에서 발생되고, 사람들이 계속해서 스스로 목숨을 끊는 사태가 벌어진다. 이러한 엄청난 사태가 속출되자 모든 학교들이 임시 휴교에 돌입하고 뉴욕에는 대피령이 내려진다. 고등학교 과학 선생님인 엘리엇(마크 윌버그)은 정체 불명의 미스터리 현상들로부터 도망치기 위해 부인 알마(주이 디샤넬)와 수학 선생님 줄리앙(존 레귀자모), 그리고 그의 8살난 딸 제스(에슐린 산체스)와 함께 기차를 타고 펜실베니아의 시골로 향한다. 그러나 이 끔찍한 사건들은 뉴욕 뿐만 아니라 필라델피아, 뉴잉글랜드, 메사추세츠, 메릴란드를 시작으로 전 세계로 확산되고, 기차 안 사람들의 공포와 불안감 또한 극도로 커져만 간다. 그러던 중 갑자기 기차의 모든 시스템이 중단되고, 세상 모두와 연락이 끊긴 것을 알아챈 엘리엇은 어느 누구도, 어느 곳도 안전하지 못하다는 것을 깨닫게 된다. 과연 이들이 두려워 하는 것은 무엇인가? 인류는 이러한 극한 상황에서 벗어날 수 있을 것인가?",
+            "popularity": 18.762,
+            "poster_path": "/aGlJJxyVs4jeCAppE8jTuCOuki5.jpg",
+            "release_date": "2008-06-11",
+            "title": "해프닝",
+            "video": false,
+            "vote_average": 5.351,
+            "vote_count": 3121
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/w53FK3MoMLavk1sxErUiGMnLpf2.jpg",
+            "genre_ids": [
+                28,
+                18,
+                878
+            ],
+            "id": 8656,
+            "original_language": "en",
+            "original_title": "Deep Impact",
+            "overview": "1998년 미확인 혜성이 지구와의 충돌 궤도에 들어선다. 충돌시 지구를 완전히 파괴할 위력을 지닌 혜성이다. 이에 위기를 느낀 지구는 충돌까지 남은 몇 개월 동안 모든 과학적 지식을 통해 이를 막으려 한다.  퇴역한 조종사 키니(로버트 듀발)는 메시아라는 우주선의 지휘를 명령받는다. 다국적 우주선의 임무는 지구를 향해 다가오고 있는 혜성 울프-베이더만을 파괴하거나 궤도 수정을 유도하는 것.  한편 미합중국 대통령은 전 세계 언론에 혜성 충돌시를 대비한 지하 요새 건설 계획을 발표한다. 지하 요새에는 지구상의 모든 생물체의 샘플과 20만 명의 각계 전문가들, 컴퓨터가 추첨한 50세 미만의 80만 명의 미국 시민들이 2년간 수용된다고 하는데...",
+            "popularity": 26.296,
+            "poster_path": "/mYcRFgb3Uj4lgNES5Wxs4azn7Fo.jpg",
+            "release_date": "1998-05-08",
+            "title": "딥 임팩트",
+            "video": false,
+            "vote_average": 6.192,
+            "vote_count": 2653
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2A2TKBGecBUtSdpcBU7TNiFtCpk.jpg",
+            "genre_ids": [
+                27
+            ],
+            "id": 607365,
+            "original_language": "fr",
+            "original_title": "Kandisha",
+            "overview": "폐허가 된 아파트에서 그래피티 작업을 하던 세 절친 아멜리, 빈투, 모르자나는 벽에서 칸디샤라는 이름을 발견한다. 이름을 알아본 모르자나는 칸디샤가 모로코 민담에 등장하며 소환한 여자의 복수를 하는 강력한 악령이라고 설명한다. 얼마 후 전 남친에게 폭행당한 아멜리는 모르자나의 얘기를 떠올리곤 두려움과 분노 끝에 충동적으로 칸디샤를 소환한다. 다음 날 전 남친은 시체로 발견된다. 전설은 사실이었고 이제 칸디샤는 살육을 이어나간다",
+            "popularity": 6.124,
+            "poster_path": "/AePmKkuK7Zvabudpb2N2ASy6YvQ.jpg",
+            "release_date": "2022-03-24",
+            "title": "칸디샤",
+            "video": false,
+            "vote_average": 6.233,
+            "vote_count": 15
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2IqArZ6nrmDChGEbGOfp7bBgLyg.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "id": 1930,
+            "original_language": "en",
+            "original_title": "The Amazing Spider-Man",
+            "overview": "어릴적 사라진 부모 대신 삼촌 내외와 살고 있는 피터 파커는 평범한 학교 생활을 하며 일상을 보내고, 같은 학교 학생 그웬 스테이시와 첫사랑에 빠져 우정과 사랑, 그리고 둘 만의 비밀을 키워나간다. 어느 날 아버지가 사용했던 가방을 발견하고 부모님의 실종사건에 대한 의심을 품게 된 그는 숨겨져 왔던 과거의 비밀을 추적하게 된다. 아버지의 옛 동료 코너스 박사의 실험실을 찾아가게 된 피터는 우연한 사고로 특별한 능력을 갖게 되고, 피터의 도움으로 연구를 완성한 코너스 박사는 자신의 숨겨진 자아인 악당 리자드를 탄생시키는데...",
+            "popularity": 82.566,
+            "poster_path": "/egsgKNPmMahQgNhmmYxiMVbLPrC.jpg",
+            "release_date": "2012-06-23",
+            "title": "어메이징 스파이더맨",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 16006
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/2I90eTdWu1yQPXtvuMxGW4kgswP.jpg",
+            "genre_ids": [
+                16,
+                10749,
+                878
+            ],
+            "id": 604605,
+            "original_language": "ja",
+            "original_title": "HELLO WORLD",
+            "overview": "세계가 발칵 뒤집힐 신기축의 하이스피드 SF청춘 러브스토리가 지금부터 펼쳐진다.",
+            "popularity": 23.183,
+            "poster_path": "/qIqySVQWNBhruTpUa6HCjdyLDRl.jpg",
+            "release_date": "2019-09-20",
+            "title": "헬로 월드",
+            "video": false,
+            "vote_average": 7.313,
+            "vote_count": 286
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/5ucjKx2rR8Z55Qd7lK5mBtQPGkr.jpg",
+            "genre_ids": [
+                28,
+                16,
+                18,
+                9648
+            ],
+            "id": 257512,
+            "original_language": "ja",
+            "original_title": "名探偵コナン 異次元の狙撃手",
+            "overview": "높이 635m를 자랑하는 벨트리 타워의 오프닝 행사.  타워 전망대에서 절경을 즐기던 코난 일행의 눈 앞에 어디선가 날아온 총탄이 한 남자의 가슴을 꿰뚫는다!  코난은 총탄이 날아온 곳에 서있는 검은 그림자를 발견하고, 여고생 탐정 양세라와 함께 저격범을 추격하는데...  수류탄과 기관총으로 중무장한 범인을 쫓던 그들은 위기에 처한 순간 나타난 FBI 수사관 조디 일행의 도움으로 가까스로 위험에서 벗어나지만, 범인은 바다에 뛰어들어 자취를 감추고 만다",
+            "popularity": 17.774,
+            "poster_path": "/hlBfAdpeznoBb0dBuXFt4QrB2fc.jpg",
+            "release_date": "2014-04-19",
+            "title": "명탐정 코난: 이차원의 저격수",
+            "video": false,
+            "vote_average": 6.918,
+            "vote_count": 92
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/80WondpnnRW14urqgt2ptxINvh9.jpg",
+            "genre_ids": [
+                12,
+                14,
+                28,
+                878
+            ],
+            "id": 9651,
+            "original_language": "en",
+            "original_title": "Supergirl",
+            "overview": "크립톤 성의 생존자들은 아르고 시티(Argo City)라는 물의 혹성에 살고 있다. 어느 날, 조각가인 잘타(Zaltar: 피터 오툴 분)가 몰래 잠시 가져온 그들의 에너지원인 '오메가 헤드론'이라는 신비의 광석을 가지고 장난하던 소녀 카라(Supergirl/Linda Lee: 헬렌 슬레이터 분)는 그만 그것을 우주로 날려버리는 실수를 한다. 책임을 느낀 그녀는 오메가 헤드론을 찾아 몰래 우주선을 탄다. 오메가 헤드론은 지구에 떨어지고, 이를 따라 지구에 도착한 카라는 슈퍼걸이 된다. 오메가 헤드론은 마녀 셀레나(Selena: 페이 다나웨이 분)의 손에 들어가고 그녀는 이것의 막강한 힘을 이용해 세계를 지배할 야심을 불태운다. 한편 카라는 '린다 리'라는 이름으로 지구의 소녀로 위장하여 여학교에 입학한 후 오메가 헤드론을 찾기 시작한다.",
+            "popularity": 15.451,
+            "poster_path": "/6OfuKKCPFclHOj4SSRRpLzF1lfP.jpg",
+            "release_date": "1984-07-01",
+            "title": "슈퍼걸",
+            "video": false,
+            "vote_average": 5.429,
+            "vote_count": 510
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/l7zvYpzBHgUYcAMZRNIkJS8ZkDC.jpg",
+            "genre_ids": [
+                16,
+                878,
+                28,
+                18
+            ],
+            "id": 22843,
+            "original_language": "ja",
+            "original_title": "ヱヴァンゲリヲン新劇場版：破",
+            "overview": "세컨드 임팩트의 충격으로 인류의 절반이 사라진 이 곳에 정체불명의 사도들이 다시 공격해 오기 시작한다. 특무기관 네르프 소속의 14세 파일럿들은 각자의 에반게리온을 타고 사도의 위협에 맞서 싸운다. 자신이 왜 타야 하는지도 모른 체 에반게리온을 타는 신지와 자신의 임무를 묵묵히 수행하는 레이. 그리고 에반게리온을 통해 자신의 능력을 표출하고 싶은 아스카까지! 같은 운명을 타고난 그들은 조금씩 마음을 열고 연대하기 시작한다.  그리고 사도들 시시각각 새로운 모습으로 그들에게 공격을 가해오는데...",
+            "popularity": 21.055,
+            "poster_path": "/dbKtCH5Z8Ocq7vA1oQOfMVGwbBJ.jpg",
+            "release_date": "2009-06-26",
+            "title": "에반게리온 파",
+            "video": false,
+            "vote_average": 7.843,
+            "vote_count": 725
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/jhJjlOMYDibolLT5o1Goi6gUza8.jpg",
+            "genre_ids": [
+                53,
+                27,
+                18
+            ],
+            "id": 448194,
+            "original_language": "en",
+            "original_title": "Pyewacket",
+            "overview": "질풍노도의 10대 시절을 보내고 있는 '레아'. 이런 그녀가 기댈 곳을 또래 친구들과 우연히 빠져든 흑마술뿐. 아버지의 죽음 이후 관계가 나빠진 엄마는 이런 딸이 못마땅하다. 이런 둘 사이는 강제적인 이사와 전학으로 악화일로로 치닫고, 결국 레아는 엄마의 죽음을 바라며, 악령을 소환하는데...",
+            "popularity": 9.197,
+            "poster_path": "/i1S2in72apU1cQKrLQBEzOfOErf.jpg",
+            "release_date": "2017-12-08",
+            "title": "파이와켓: 죽음의 주문",
+            "video": false,
+            "vote_average": 5.917,
+            "vote_count": 270
+        }
+    ],
+    "total_pages": 118,
+    "total_results": 2344
+}

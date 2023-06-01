@@ -1,13 +1,8 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import Seo from '../components/all/Seo.js';
+import MovieCard from '../components/movieBox/MovieCard.js';
 
 export default function Home({ result, pathList }) {
-  const router = useRouter();
-  const onPosterClick = (title) => { router.push(`/movies/movieDetail/${title}`) };
-
   const [posterPath, setPostersPath] = useState([]);
   const [overView, setOverView] = useState([]);
 
@@ -65,44 +60,8 @@ export default function Home({ result, pathList }) {
         
         {/* 박스 오피스 순위 목록 boxOffice list */}
         <div className='grid gap-4 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-2 place-items-center'>
-          {result?.map((movie) => (
-            <Link key={movie.rank} href={{
-              pathname: `/movies/movieDetail/${movie.movieNm}`,
-              query:
-              {
-                data: JSON.stringify(pathList),
-                movieNumber: movie.movieCd
-              },
-              }}
-              as={`/movies/movieDetail/${movie.movieNm}`}
-              onClick={() => onPosterClick(movie.movieNm)}
-              legacyBehavior>
-              <div before={`${movie.rank}`}
-              className='
-              relative flex flex-col w-fit overflow-hidden bg-rose-600/80 text-white
-              rounded-lg items-center justify-center group 
-              hover:bg-[#0A1B2A] hover:text-white transition-all duration-300
-              before:content-[attr(before)] before:w-full before:h-full 
-              before:bg-gradient-to-b before:from-black/30
-              before:top-0 before:left-0 before:text-3xl before:pl-3 before:pt-3
-              before:absolute before:text-white
-              '>
-              <img src={`https://image.tmdb.org/t/p/w${300}${pathList[0].poster_path}`} alt="poster" />
-              <p className='text-center'>{movie.movieNm}</p>
-              <div className='
-                  absolute top-[95%] left-0 w-full h-0 opacity-0 bg-rose-600/90
-                  group-hover:opacity-100 group-hover:top-0 group-hover:left-0
-                  group-hover:h-[95%] transition-all duration-300 text-white
-                  flex flex-col items-center text-center py-2
-                  '>
-                <h3 className='w-full text-2xl font-bold'>개봉일</h3>
-                <p className='w-full text-lg'>{movie.openDt}</p>
-                <div className='border border-white w-full my-2'></div>
-                <h3 className='w-full text-2xl '>개요</h3>
-                <p className='w-full text-start px-4'>{pathList[0].overview}</p>
-              </div>
-            </div>
-            </Link>
+          {result?.map((movie, idx) => (
+            <MovieCard key={idx} rank={movie.rank} name={movie.movieNm} pathList={pathList} number={movie.movieCd} poster_path={pathList[0].poster_path} openDt={movie.openDt} overview={pathList[0].overview} />
           ))}
         </div>
       </section>

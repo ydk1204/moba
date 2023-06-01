@@ -1,0 +1,27 @@
+{
+    "movieListResult": {
+        "totCnt": 1,
+        "source": "영화진흥위원회",
+        "movieList": [
+            {
+                "movieCd": "20030041",
+                "movieNm": "더 코어",
+                "movieNmEn": "The Core",
+                "prdtYear": "2003",
+                "openDt": "20030418",
+                "typeNm": "장편",
+                "prdtStatNm": "개봉",
+                "nationAlt": "미국",
+                "genreAlt": "SF,드라마,스릴러,액션",
+                "repNationNm": "미국",
+                "repGenreNm": "SF",
+                "directors": [
+                    {
+                        "peopleNm": "존 아미엘"
+                    }
+                ],
+                "companys": []
+            }
+        ]
+    }
+}
