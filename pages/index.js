@@ -23,8 +23,6 @@ export default function Home({ result, pathList }) {
     .catch((error) => console.log("error", error));
   }
 
-  console.log(pathList)
-
   useEffect(() => {
     // movie 이름만 추출
     const arr = [];
