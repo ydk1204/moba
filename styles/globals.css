@@ -39,6 +39,18 @@ a {
   /* Firefox */
 }
 
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: normal;
+  line-height: 1.2;
+  overflow: hidden;
+  text-align: left;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     /* color-scheme: dark; */

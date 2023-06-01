@@ -2,18 +2,15 @@ import React from "react";
 
 import { VisibilityContext } from "react-horizontal-scrolling-menu";
 
-function Arrow({children, disabled, onClick}) {
+function Arrow({children, disabled, onClick, position}) {
   return (
-    <button
+    <button className={`${position === 'right' ? 'inset-y-0 right-0' : 'inset-y-0 left-0'} z-[999] bg-white/30 hover:bg-white/50`}
       disabled={disabled}
       onClick={onClick}
       style={{
         cursor: "pointer",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        right: "1%",
-        opacity: disabled ? "0.5" : "1",
+        position: "absolute",
+        opacity: disabled ? "0" : "1",
         userSelect: "none"
       }}
     >
@@ -37,7 +34,7 @@ export function LeftArrow() {
   }, [isFirstItemVisible, visibleElements]);
 
   return (
-    <Arrow disabled={disabled} onClick={() => scrollPrev()}>
+    <Arrow disabled={disabled} position={'left'} onClick={() => scrollPrev()}>
       Left
     </Arrow>
   );
@@ -59,7 +56,7 @@ export function RightArrow() {
   }, [isLastItemVisible, visibleElements]);
 
   return (
-    <Arrow disabled={disabled} onClick={() => scrollNext()}>
+    <Arrow disabled={disabled} position={'right'} onClick={() => scrollNext()}>
       Right
     </Arrow>
   );

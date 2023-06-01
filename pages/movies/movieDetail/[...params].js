@@ -12,8 +12,9 @@ export default function Detail({params}) {
   const router = useRouter();
   const [title] = params || [];
   const { data, movieNumber } = router.query;
-  const objData = data && JSON.parse(data)
-  const movieGerne = objData.length > 0 ? objData[0].genre_ids : [];
+  const objDatas = data && JSON.parse(data)
+  const objData = Array.isArray(objDatas) === true ? objDatas[0] : objDatas;
+  const movieGerne = objData?.length > 0 ? objData.genre_ids : [];
 
   const [detailData, setDetailData] = useState([])
   const [videoKey, setVideoKey] = useState("")
@@ -52,13 +53,13 @@ export default function Detail({params}) {
   }, [movieNumber])
 
   useEffect(() => {
-    similarMovie(objData.id);
+    similarMovie(objData?.id);
   }, [data])
 
   // 영화 예고편
   useEffect(() => {
     // 예고편이 없는 경우 대비해야 댐
-    objData.length > 0 && fetch("http://localhost:3000/data/movie_video.json")
+    objData?.length > 0 && fetch("http://localhost:3000/data/movie_video.json")
       .then((result) => result.json())
       .then((res) => {
         const { results } = res;
@@ -66,6 +67,8 @@ export default function Detail({params}) {
       })
       .catch((error) => console.log("error", error));
   }, [objData]);
+
+  console.log(objData);
   
   return (
     <div>
@@ -79,7 +82,7 @@ export default function Detail({params}) {
           before:absolute
           `}
           style={{
-            backgroundImage: `url(https://image.tmdb.org/t/p/original${objData[0].backdrop_path})`,
+            backgroundImage: `url(https://image.tmdb.org/t/p/original${objData.backdrop_path})`,
             backgroundSize: `cover`,
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center',
@@ -87,11 +90,11 @@ export default function Detail({params}) {
         >
         <div className='relative h-full flex justify-center'>
           <div className='h-fit w-fit border-2 border-rose-500 rounded-md overflow-hidden mr-[4rem]'>
-            <img src={`https://image.tmdb.org/t/p/w${300}${objData[0].poster_path}`} alt="poster" />
+            <img src={`https://image.tmdb.org/t/p/w${300}${objData.poster_path}`} alt="poster" />
           </div>
           <div className='w-[40rem] h-full'>
             <h1 className='text-4xl font-medium'>{title}</h1>
-            <h3 className='text-xl text-gray-400'>{objData[0].original_title}</h3>
+            <h3 className='text-xl text-gray-400'>{objData.original_title}</h3>
             {detailData.length > 0 ? 
               <div className='h-full'>
                 <p>감독 : {detailData[0].directors[0].peopleNm}</p>
@@ -105,13 +108,13 @@ export default function Detail({params}) {
                 {detailData[0].showTypes.map((type, idx) => (
                   <div key={idx}>{type.showTypeGroupNm} {type.showTypeNm}</div>
                 ))}
-                <p>개요 : {objData[0].overview}</p>
+                <p>개요 : {objData.overview}</p>
                 <p>예고편</p>
                 <iframe width="100%" height="10%" src={`https://www.youtube.com/embed/${videoKey}?autoplay=0`}></iframe>  
-                    <div className='container'>
+                    <div className='container relative'>
                       <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow} onWheel={onWheel} Header={<div>HEADER</div>}
                         Footer={<div>FOOTER</div>}>
-                      {similar && similar[0].map((movie, idx) => (
+                      {similar && similar[0]?.map((movie, idx) => (
                         <MovieCard key={idx} itemId={movie.title} name={movie.title} pathList={movie} poster_path={movie.poster_path} openDt={movie.release_date} overview={movie.overview} />
                       ))}
                     </ScrollMenu>

@@ -39,7 +39,7 @@ export default function Card({ rank = undefined, name, pathList, number = undefi
       before:content-[attr(before)] before:w-full before:h-full 
       before:bg-gradient-to-b before:from-black/30
       before:top-0 before:left-0 before:text-3xl before:pl-3 before:pt-3
-      before:absolute before:text-white
+      before:absolute before:text-white ellipsis
       '>
         <div className='flex flex-col items-center justify-start h-full'>
           <img src={`https://image.tmdb.org/t/p/w${342}${poster_path}`} className='w-full h-[26.8rem]' alt="poster" />
@@ -54,8 +54,8 @@ export default function Card({ rank = undefined, name, pathList, number = undefi
           <h3 className='w-full text-2xl font-bold'>개봉일</h3>
           <p className='w-full text-lg'>{openDt}</p>
           <div className='border border-white w-full my-2'></div>
-          <h3 className='w-full text-2xl '>개요</h3>
-          <p className='w-full text-start px-4'>{overview}</p>
+          <h3 className='w-full text-2xl'>개요</h3>
+          <p className='w-full text-start px-4 ellipsis h-[6em]'>{overview}</p>
         </div>
       </div>
     </Link>
