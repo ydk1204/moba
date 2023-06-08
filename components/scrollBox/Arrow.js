@@ -4,7 +4,10 @@ import { VisibilityContext } from "react-horizontal-scrolling-menu";
 
 function Arrow({children, disabled, onClick, position}) {
   return (
-    <button className={`${position === 'right' ? 'inset-y-0 right-0' : 'inset-y-0 left-0'} z-[999] bg-white/30 hover:bg-white/50`}
+    <button className={`
+      ${position === 'right' ? 'inset-y-0 right-0 rounded-r-md' : 'inset-y-0 left-0 rounded-l-md'} 
+      z-[999] w-12 bg-white/30 hover:bg-white/50
+      `}
       disabled={disabled}
       onClick={onClick}
       style={{
@@ -35,7 +38,7 @@ export function LeftArrow() {
 
   return (
     <Arrow disabled={disabled} position={'left'} onClick={() => scrollPrev()}>
-      Left
+      L
     </Arrow>
   );
 }
@@ -57,7 +60,7 @@ export function RightArrow() {
 
   return (
     <Arrow disabled={disabled} position={'right'} onClick={() => scrollNext()}>
-      Right
+      R
     </Arrow>
   );
 }
