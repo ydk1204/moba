@@ -6,7 +6,7 @@ function Arrow({children, disabled, onClick, position}) {
   return (
     <button className={`
       ${position === 'right' ? 'inset-y-0 right-0 rounded-r-md' : 'inset-y-0 left-0 rounded-l-md'} 
-      z-[999] w-12 bg-white/30 hover:bg-white/50
+      z-[999] w-12 bg-black/50 hover:bg-white/50
       `}
       disabled={disabled}
       onClick={onClick}
