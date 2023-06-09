@@ -11,7 +11,7 @@ import styled from 'styled-components';
 export default function Detail({params}) {
   const router = useRouter();
   const [title] = params || [];
-  const { data, movieNumber } = router.query;
+  const { data, movieNumber, name } = router.query;
   const objDatas = data && JSON.parse(data)
   const objData = Array.isArray(objDatas) === true ? objDatas[0] : objDatas;
   const movieGerne = objData && Object.keys(objData).length > 0 ? objData.genre_ids : [];
@@ -59,7 +59,7 @@ export default function Detail({params}) {
   // 영화 예고편
   useEffect(() => {
     // 예고편이 없는 경우 대비해야 댐
-    Object.keys(objData).length > 0 && fetch("http://localhost:3000/data/movie_video.json")
+    objData.id && fetch("http://localhost:3000/data/movie_video.json")
       .then((result) => result.json())
       .then((res) => {
         const { results } = res;
@@ -93,7 +93,7 @@ export default function Detail({params}) {
                 <img src={`https://image.tmdb.org/t/p/w${300}${objData.poster_path}`} alt="poster" />
               </div>
               <div className='w-[40rem] h-full leading-relaxed'>
-                <h1 className='text-4xl font-medium'>{title}</h1>
+                <h1 className='text-4xl font-medium'>{name}</h1>
                 <h3 className='text-xl text-gray-400 mb-4'>{objData.original_title}</h3>
                 {detailData.length > 0 ? 
                   <div className='h-full'>

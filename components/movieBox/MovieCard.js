@@ -5,6 +5,7 @@ import { useState } from 'react';
 export default function Card({ rank = undefined, name, pathList, number = undefined, poster_path, openDt, overview, originalName = undefined }) {
   const [movieNm, setMovieNm] = useState(0)
   const router = useRouter();
+  const pathNumber = Array.isArray(pathList) === true ? pathList[0].id : pathList.id;
   // const onPosterClick = (title) => { router.push(`/movies/movieDetail/${title}`) };
 
   const checkMovieNumber = async () => {
@@ -21,14 +22,15 @@ export default function Card({ rank = undefined, name, pathList, number = undefi
 
   return (
     <Link key={rank === undefined ? movieNm : rank} href={{
-    pathname: `/movies/movieDetail/${name}`,
+    pathname: `/movies/movieDetail/${pathNumber}`,
     query:
     {
       data: JSON.stringify(pathList),
-      movieNumber: movieNm
+      movieNumber: movieNm,
+      name
     },
     }}
-    as={`/movies/movieDetail/${name}`}
+    as={`/movies/movieDetail/${pathNumber}`}
     // onClick={() => onPosterClick(name)}
     legacyBehavior>
       <div before={`${rank === undefined ? "" : rank}`}
