@@ -5,7 +5,7 @@ import { VisibilityContext } from "react-horizontal-scrolling-menu";
 function Arrow({children, disabled, onClick, position}) {
   return (
     <button className={`
-      ${position === 'right' ? 'inset-y-0 right-0 rounded-r-md' : 'inset-y-0 left-0 rounded-l-md'} 
+      ${position === 'right' ? 'inset-y-0 right-0 rounded-l-md' : 'inset-y-0 left-0 rounded-r-md'} 
       z-[999] w-12 bg-black/50 hover:bg-white/50
       `}
       disabled={disabled}

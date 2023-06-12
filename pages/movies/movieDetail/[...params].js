@@ -137,8 +137,8 @@ export default function Detail({params}) {
                   </div>
             </div>
             <h3 className='mt-20 text-3xl border-b xl:w-[63rem] w-full text-center'>비슷한 영화</h3>
-            <div className='xl:w-[63rem] w-full h-[30rem] bg-black/50 flex items-center rounded-md mb-10'>
-              <div className='container relative '>
+            <div className='xl:w-[63rem] w-full h-[30rem] bg-black/50 flex justify-center items-center rounded-md mb-10'>
+              <div className='container relative'>
                 <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow} onWheel={onWheel}>
                 {similar && similar[0]?.map((movie, idx) => (
                   <MovieCard key={idx} itemId={movie.title} name={movie.title} pathList={movie} poster_path={movie.poster_path} openDt={movie.release_date} overview={movie.overview} />
